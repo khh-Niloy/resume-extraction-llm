@@ -21,10 +21,3 @@ dist
 # IDE
 .vscode
 .idea
-
-/src/*
-!/src/app.ts
-!/src/index.ts
-/supabase
-
-/app/profile
