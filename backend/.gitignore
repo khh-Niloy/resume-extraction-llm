@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules
+/dist
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Build
+build
+dist
+
+# IDE
+.vscode
+.idea
+
+/src/*
+!/src/app.ts
+!/src/index.ts
+/supabase
+
+/app/profile

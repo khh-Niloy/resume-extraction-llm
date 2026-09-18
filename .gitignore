@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+dist
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Build
+build
+dist
+
+# IDE
+.vscode
+.idea
+
+
+# Backend specific
+/backend/src/*
+!/backend/src/app.ts
+!/backend/src/index.ts
+!/backend/supabase
+
+# Frontend specific
+/frontend/app/profile
+/frontend/app/page.tsx
+AGENTS.md
+CLAUDE.md
