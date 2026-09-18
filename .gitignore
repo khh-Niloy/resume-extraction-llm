@@ -22,15 +22,3 @@ dist
 .vscode
 .idea
 
-
-# Backend specific
-/backend/src/*
-!/backend/src/app.ts
-!/backend/src/index.ts
-!/backend/supabase
-
-# Frontend specific
-/frontend/app/profile
-/frontend/app/page.tsx
-AGENTS.md
-CLAUDE.md
